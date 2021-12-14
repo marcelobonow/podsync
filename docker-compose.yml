@@ -8,4 +8,4 @@ services:
     environment:
       - POSTGRES_PASSWORD=123456
     volumes:
-      - ./postgres-data:/var/lib/postgresql
+      - ./database-data:/var/lib/postgresql
